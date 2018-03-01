@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="6"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/mot" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="50dp"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="-20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="» Tên bài hát"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_marginBottom="-10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="» Tên ca sĩ"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:layout_marginBottom="-15dp"
+                    android:layout_marginTop="-10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="» mp3.zing.vn"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/more"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/share" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/lock" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/download" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/add" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="-15dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp" />
+                <SeekBar
+                    android:layout_width="300dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="5'00"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/lap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:src="@drawable/lui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" />
+                <ImageView
+                    android:layout_marginTop="-10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/play"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:src="@drawable/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/replay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
